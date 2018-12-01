@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
   <title>Cartoon Dog</title>
 </head>
 <body>
@@ -47,8 +48,8 @@
     --hl: rgb(27, 47, 144);
     --t: 2s;
   }
-  body {background:url(img/bg.png) no-repeat; background-size:100%;overflow:hidden;}
-  .dog {position: relative;top:78vh;left:-10vw; /*transform: scale(1, 1);*/}
+  body {background:url(img/land.jpg) no-repeat; background-size:cover;background-position:center;height:100vh;margin:0;padding:0;overflow: hidden}
+  .dog {position: relative;top:71vh;left:-10vw; /*transform: scale(1, 1);*/}
   .head {width: 275px; height: 275px; position: relative; margin: 0 auto;}
   .ear {animation: rotate var(--t) ease-out infinite; position: absolute; left: 50%; margin-left: -38px; top: 14px; z-index: 0; background-color: var(--hl); width: 16px; height: 70px; border-radius: 50%;}
   .ear.right {animation: rotate-right var(--t) ease-out infinite; transform: scale(-1, 1); margin-left: 22px;}
