@@ -3,9 +3,11 @@
 一、作品预览<br>
 ------------------------
 ![cartoon dog](https://github.com/YuBaiLian123/Hanke-dog/blob/master/Cartoon%20Dog.png)
+<br>
 二、实现技术<br>
 ---------------------------
 HTML+`CSS3`<br>
+<br>
 三、技巧点<br>
 ---------------------------
 1、CSS3的边框、圆角、2D转换、过渡、动画等新属性的灵活运用。<br>
